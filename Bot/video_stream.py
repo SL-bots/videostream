@@ -10,7 +10,7 @@ API_ID = os.environ.get("API_ID",12345)
 API_HASH = os.environ.get("API_HASH","")
 SESSION_NAME = os.environ.get("SESSION_NAME","")
 CHAT = os.environ.get("CHAT","")
-ADMIN = int(os.environ.get("ADMIN", 923943045))
+ADMIN = int(os.environ.get("ADMIN", 1202064253))
 
 app = Client(SESSION_NAME, API_ID, API_HASH)
 
